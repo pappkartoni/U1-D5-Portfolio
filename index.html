@@ -4,15 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>About me</title>
+
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <h1>
-        This is me I guess
-    </h1>
-    <img href="" alt="">
-    <div>
-        <p>lorem</p>
-    </div>
+    <header>
+        <div class="menu t-light">
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#work">My work</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="intro" class="sect t-light">
+            <div class="introsect">
+                <h4>Hi, my name is</h4>
+                <h1>Florian Dreyer</h1>
+                <p>
+                    I am an aspiring web developer with a background in mathematics. I value clear and concise design goals in software development and want to bring that to the future of the web. 
+                    If you want to see what I am working on, you can find my current projects here:
+                </p>
+                <a href="https://github.com/pappkartoni" class="button t-center">On my Github page</a>
+            </div>
+        </section>
+
+        <section id="about" class="sect t-dark">
+            <div class="sectcontent">
+                <h2>About me</h2>
+                <div class="flexrow">
+                    <div class="img-container column">
+                        <img src="./assets/portrait.jpg" >
+                    </div>
+                    <div class="column" style="margin-right:2rem; text-align: justify; text-align-last: none;">
+                        <p>
+                            Hello! My name is Florian but eveyone usually just calls me Flo. I am born and raised in Hamburg, Germany and that's where I still choose to live today. From an early age on I have always been fascinated by everything technical and I always had the desire to understand how those things work. Turns out it's mostly numbers and I had a knack for those!
+                            That's why I went on to study mathematics. I got my Bachelor's degree in 2015 and decided I want to work in software development of some kind. With tons of programming languages and fields of work to choose from I eventually landed on web development. 
+                            I just wanted to leave my mark on the everchanging landscape that is the world wide web.
+                        </p>
+                        <p>I started with a small startup company and eventually went on to work for a large German publisher. Having seen both ends of the corporate spectrum I came to the conclusion that I want to do my own thing so to speak. Whether that turns out to be freelancing or creating my own web development company remains yet to be seen!  </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="sect t-dark">
+            <div class="sectcontent">
+                <h2>My experience</h2>
+                <div class="flexrow">
+                    <a href="https://www.codiac.de/" target="_blank"><img src="https://www.codiac.de/wp-content/uploads/2017/12/codiac_logo_pos.png" style="height: 45px;"></a>
+                    <a href="https://www.rtl.de/" target="_blank"><img src="https://shop.guj.de/on/demandware.static/-/Sites-navigation-grunerjahr/default/dw8cd7cd15/logo/logo-guj.png" style="height: 45px;"></a>
+                    <a href="https://www.lapstore.de/" target="_blank" class="logo" style="font-size: 45px; font-family: Verdana; font-style: italic; font-weight: bold;">
+                        <span style="color: #19278a">Lap</span><span style="color: #992f17">Store</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="sect">
+            <div class="sectcontent">
+                <h2>My work</h2>
+                <div class="flexrow">
+                    <div class="img-container1">
+                        <a href="https://www.brigitte.de/familie/schlau-werden/praeimplantationsdiagnostik--bitte--lasst-mich-mama-werden--12219808.html">
+                            <img class=static src="./assets/output-onlinegiftools.png" style="object-fit: cover; position: relative; top: 0; left: 0;">
+                            <img class="active" src="./assets/kapitel-1-eizelle-gif-schmaler.gif" style="object-fit: cover; position: relative; top: 0; left: 0;">                        
+                        </a>
+                    </div>
+                    <div class="column" style="margin-right:2rem; text-align: justify; text-align-last: none;">
+                        <p>As I have always worked for companies of some kind there are little singular contributions to find on the web for now, if you want to see what I am working on currently you can always check out my Github though!
+                            I did however work closely with one of the writers at Gruner + Jahr on an article she wrote about preimplantation genetic diagnosis, feel free to check it out (it is in German though).
+                        </p>
+                        <p>
+                            The different brands within the company usually all have fixed designs for their published online articles but we wanted to make an article that stood out because it was a dear topic to my former colleague.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="sect">
+            <div class="sectcontent no-bg t-center t-light">
+                <h2>Contact me</h2>
+                <p>I am just staring to build my own web presence and will update this section accordingly once I have set up my own Linked account etc. My inbox is always open though so you can always contact me if you have a question or just want to say hi!</p>
+                <a href="mailto:flodreyer@web.de" class="button t-center">Email me!</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="credit t-light t-center">
+            <a href="https://github.com/pappkartoni/U1-D5-Portfolio" target="_blank">Built by Florian Dreyer</a>
+        </div>
+    </footer>
 </body>
 </html>
