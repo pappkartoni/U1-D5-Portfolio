@@ -21,6 +21,10 @@ main, footer {
   padding: 40px 0;
 }
 
+main {
+  margin-top: -16px;
+}
+
 .t-center {
   text-align: center;
 }
